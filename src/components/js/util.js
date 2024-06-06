@@ -4,6 +4,15 @@ var WPS_Enum = {
     msoCTPDockPositionRight:2
 }
 
+const BASE_API = {
+    // 开发
+    dev: "http://218.85.119.93:28088",
+    // 预发布
+    pre: "https://translate.zte.com.cn:28085",
+    // 生产
+    prod: "https://translate.zte.com.cn:28085",
+}
+
 function GetUrlPath() {
     let e = document.location.toString()
     return -1!=(e=decodeURI(e)).indexOf("/")&&(e=e.substring(0,e.lastIndexOf("/"))),e
@@ -11,5 +20,6 @@ function GetUrlPath() {
 
 export default{
     WPS_Enum,
-    GetUrlPath
+    GetUrlPath,
+    BASE_API
 }

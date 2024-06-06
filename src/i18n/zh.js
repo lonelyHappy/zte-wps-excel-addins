@@ -1,0 +1,18 @@
+export default {
+  "btnReplace": "用MT译文替换原文",
+  "btnAfter": "在原文后插入译文",
+  "sourceLangDropDown": "源始语言",
+  "targetLangDropDown": "目标语言",
+  "domainDropDown": "语言领域",
+  "dropDown_UIlang": "界面语言",
+  "zh-ui": "简体中文",
+  "en-ui": "English",
+  "zh-cn": "中文(简体)",
+  "en": "英文",
+  "general": "通用领域",
+  "law": "法律领域",
+  "finance": "财经领域",
+  "tab1": "云译翻译",
+  "btnReplaceRight": "在右侧单元格填入MT译文",
+  "btnReplaceUnder": "在下方单元格填入MT译文",
+}

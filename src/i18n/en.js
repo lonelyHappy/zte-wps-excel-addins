@@ -1,0 +1,18 @@
+export default {
+  "btnReplace": "Replace the source text with MT",
+  "btnAfter": "Enter MT behind the source text",
+  "sourceLangDropDown": "Source Language",
+  "targetLangDropDown": "Target Language",
+  "domainDropDown": "Language Domain",
+  "dropDown_UIlang": "Display Language",
+  "zh-ui": "简体中文",
+  "en-ui": "English",
+  "zh-cn": "Chinese(Simplified)",
+  "en": "English",
+  "general": "General",
+  "law": "Law",
+  "finance": "Finance",
+  "tab1": "CloudTrans",
+  "btnReplaceRight": "Enter MT into the right cell",
+  "btnReplaceUnder": "Enter MT into the below cell",
+}
